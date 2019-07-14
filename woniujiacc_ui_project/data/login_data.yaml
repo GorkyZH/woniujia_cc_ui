@@ -1,0 +1,25 @@
+LoginData:
+   dec: "登录用例数据"
+   data:
+      operid_pwd_null:
+         oper_id:
+         oper_pwd:
+         message: "用户名或密码不能为空"
+      pwd_null:
+         oper_id: 15121322808
+         oper_pwd:
+         message: "请输入登陆密码"
+      operid_null:
+         oper_id:
+         oper_pwd: 123456
+         message: "请输入正确的手机号码"
+      pwd_error:
+         oper_id: 15616699600
+         oper_pwd: 123456
+         message: "用户名或密码错误"
+      success:
+         oper_id: 15616699600
+         oper_pwd: zh123456
+         message: "成功"
+
+

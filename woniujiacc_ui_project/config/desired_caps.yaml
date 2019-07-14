@@ -1,0 +1,25 @@
+platformName: Android
+
+# 模拟器
+#platformVersion: 6.0.1
+#deviceName: emulator-5554
+
+# 红米7pro plus真机
+#platformVersion: 9
+#deviceName: Redmi
+#udid: 59ddcb00
+
+# 测试机
+platformVersion: 7.1.2
+deviceName: Redmi 4X
+udid: 9ece97bc7d74
+
+appname: hecr_debugsetting_debug.apk
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.jufuns.effectsoftware
+appActivity: com.jufuns.effectsoftware.act.SplashActivity
+ip: 127.0.0.1
+port: 4723

@@ -1,0 +1,22 @@
+LoginPage:
+   dec: 登录页
+   locators:
+       userName:
+         name: 用户名
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_login_edt_userName
+
+       password:
+         name: 密码
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_login_edt_passWd
+
+       login:
+         name: 登录
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_login_btn_login
+
+       forgetpwd:
+         name: 忘记密码
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_login_tv_forget

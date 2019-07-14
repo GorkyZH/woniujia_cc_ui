@@ -1,0 +1,29 @@
+HomeData:
+   dec: "首页测试数据"
+   data:
+      home_tab:
+         text: 首页
+      home_title:
+         text: 首页
+      follow_text:
+         text: 跟进中
+      reported_text:
+         text: 已报备
+      visited_text:
+         text: 已到访
+      concluded_text:
+         text: 已成交
+      build_text:
+         text: 楼盘
+      information_text:
+         text: 资讯
+      bill_text:
+         text: 海报
+      extension_text:
+         text: 商机
+      plan_text:
+         text: 跟进计划
+      callout_text:
+         text: 外呼任务
+
+
