@@ -1,0 +1,26 @@
+UrlData:
+   dec: 存储sql语句
+   data:
+      # 获取登录接口
+      login_url: http://182.61.33.241:8089/app/api/public/1.0/open/login
+      # 获取楼盘列表接口
+      build_list_url: http://182.61.33.241:8089/app/api/private/1.3.1/homePage/boroughList
+      # 楼盘查询接口
+      build_search_url: http://182.61.33.241:8089/app/api/private/1.3.1/homePage/searchBoroughList
+      # 资讯首页接口
+      article_list_url: http://182.61.33.241:8089/app/api/private/1.3/homePage/articleList
+      # 获取客户跟进计划接口
+      follow_plan_url: http://182.61.33.241:8089/app/api/private/1.0/follow/clientpage
+      # 查看用户个人信息接口
+      personal_info_url: http://182.61.33.241:8089/app/api/private/1.0/user/edit
+      # 查询常用语
+      quick_reply_url: http://182.61.33.241:8089/app/api/private/1.2/quick-reply/list
+      # 保存常用语
+      save_quick_reply_url: http://182.61.33.241:8089/app/api/private/1.2/quick-reply/save
+      # 删除常用语
+      del_quick_reply_url: http://182.61.33.241:8089/app/api/private/1.2/quick-reply/delete
+      # 排序常用语
+      sort_quick_reply_url: http://182.61.33.241:8089/app/api/private/1.2/quick-reply/sort
+
+
+

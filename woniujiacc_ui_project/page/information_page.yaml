@@ -1,0 +1,37 @@
+InforPage:
+   dec: 资讯页面
+   locators:
+      title:
+         name: 定位资讯标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 定位返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      search_btn:
+         name: 定位搜索图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_right
+      info_home_tab:
+         name: 定位资讯首页tab
+         type: text
+         loc: 资讯首页
+      build_buy_tab:
+         name: 定位楼评导购tab
+         type: text
+         loc: 楼评导购
+      local_news_tab:
+         name: 定位本地要闻tab
+         type: text
+         loc: 本地要闻
+      country_info_tab:
+         name: 定位全国资讯tab
+         type: text
+         loc: 全国资讯
+      item_title:
+         name: 定位列表中item的标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_news_list_rv_info_tv_name
+
+

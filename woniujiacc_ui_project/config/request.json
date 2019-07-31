@@ -1,0 +1,69 @@
+{
+  "token_header":{
+    "Authorization":"Bearer eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJvcGVySWQiOiIxNTYxNjY5OTYwMCIsInVzZXJJZCI6IjFGNDcwMjM4REFFRDQyNkNBQUFCQjJFMjFDREIxMTkzIiwicGxhdGZvcm0iOjEsImNhY2hlSWQiOjEwLCJsb2dpbnRpbWUiOjE1NjQwNDI1OTkwMzYsImV4cCI6MzEyODY4OTk5OCwibmJmIjoxNTY0MDQyNTk5fQ.fm6eqdHZwRZapd5SOEl7rcg7kA1FCp06wnnWdpLcZdI",
+    "Content-Type":"application/json"
+  },
+  "header":{"Content-Type":"application/json"},
+  "login_data": {
+    "operId": "15616699600",
+	"operPwd": "zh123123"
+  },
+  "personalinfo_data":{
+
+  },
+  "boroughtList":{"pageNo":"1", "pageSize":"15"},
+  "searchBoroughList_kewords_in":{"pageNo": "1", "pageSize": "15", "searchKey": "万科"},
+  "article_list":{
+	"pageNo": "1",
+	"pageSize": "15",
+	"topClassifyId": ""
+  },
+  "article_build_tab":{
+	"pageNo": "1",
+	"pageSize": "15",
+	"topClassifyId": "18"
+  },
+  "article_local_tab":{
+	"pageNo": "1",
+	"pageSize": "15",
+	"topClassifyId": "20"
+  },
+  "article_country_tab":{
+	"pageNo": "1",
+	"pageSize": "15",
+	"topClassifyId": "21"
+  },
+  "today_plan_list":{
+    "pageNo": "1",
+    "pageSize": "15",
+    "selectStartTime": "",
+	"selectEndTime": "",
+	"selectTab": "1",
+	"operId": "1F470238DAED426CAAABB2E21CDB1193"},
+  "tomorrow_plan_list":{
+    "pageNo": "1",
+    "pageSize": "15",
+    "selectStartTime": "",
+	"selectEndTime": "",
+	"selectTab": "2",
+	"operId": "1F470238DAED426CAAABB2E21CDB1193"
+  },
+  "timeout_plan_list":{
+    "pageNo": "1",
+    "pageSize": "15",
+    "selectStartTime": "",
+	"selectEndTime": "",
+	"selectTab": "0",
+	"operId": "1F470238DAED426CAAABB2E21CDB1193"
+  },
+  "quick_reply_list":{
+	"pageNo": "1",
+	"pageSize": "15"
+  },
+  "save_quick_reply":{
+    "pageNo": "1",
+	"pageSize": "10",
+	"replyContent": "",
+	"replyId": 0
+  }
+}

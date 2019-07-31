@@ -1,0 +1,329 @@
+MinePage:
+   dec: 我的页面
+   locators:
+      my_tab:
+         name: 我的tab
+         type: id
+         loc: com.jufuns.effectsoftware:id/menu_navigation_btn_mine
+      touxiang:
+         name: 头像
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_iv_user_head
+      user_tag:
+         name: 极速响应标记
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_iv_user_tag
+      user_name:
+         name: 咨询师名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_name
+      service_time_num:
+         name: 从业时长
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_time
+      service_time_text:
+         text: 从业经验(年)
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_time_text
+      service_people_num:
+         name: 服务人数
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_people
+      service_people_text:
+         text: 已服务(人)
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_people_text
+      service_score_num:
+         name: 满意度
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_score
+      service_score_text:
+         text: 满意度(分)
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_user_service_score_text
+      edit_info:
+         text: 编辑个人信息
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_edit_user_info
+      share_card:
+         text: 分享我的名片
+         type: id
+         loc: com.jufuns.effectsoftware:id/fragment_mine_tv_edit_shared
+      plan_text:
+         name: 跟进计划文本
+         type: text
+         loc: 跟进计划
+      callout_text:
+         name: 营销外呼文本
+         type: text
+         loc: 营销外呼
+      build_text:
+         name: 驻守楼盘文本
+         type: text
+         loc: 驻守楼盘
+      build_value:
+         name: 驻守楼盘数量
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_mine_lv_item_tv_more
+      setting_text:
+         name: 系统设置文本
+         type: text
+         loc: 系统设置
+
+      # 头部
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      title:
+         name: 标题文本
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      right_btn:
+         name: 右边按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_right
+
+      # 驻守楼盘页
+      describe_total_text:
+         name: 描述驻守楼盘数
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_troop_house_tv
+      build_listview:
+         name: 驻守楼盘列表
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_troop_house_lv
+      build_item:
+         name: 列表中的item楼盘名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_troop_house_lv_item_tv_name
+
+      # 分享我的名片弹窗
+      select_wechat_text:
+         name: 选择微信好友分享
+         type: text
+         loc: 微信好友
+      select_bill_text:
+         name: 选择分享海报
+         type: text
+         loc: 分享海报
+      select_link_text:
+         name: 选择分享链接
+         type: text
+         loc: 分享链接
+      select_copy_link_text:
+         name: 选择复制链接
+         type: text
+         loc: 复制链接
+      cancel_text:
+         name: 取消文本
+         type: text
+         loc: 取消
+
+      # 个人信息页
+      my_photo_text:
+         name: 我的头像
+         type: text
+         loc: 我的头像
+      my_photo_value:
+         name: 我的头像值
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_act_personal_info_lv_item_iv_head
+      my_name_text:
+         name: 我的姓名
+         type: text
+         loc: 我的姓名
+      my_name_value:
+         name: 我的姓名值
+         type: brother_text
+         loc: 我的姓名
+      my_age_text:
+         name: 我的年龄
+         type: text
+         loc: 我的年龄
+      my_age_value:
+         name: 我的年龄值
+         type: brother_text
+         loc: 我的年龄
+      experience_text:
+         name: 从业经验
+         type: text
+         loc: 从业经验
+      experience_value:
+         name: 从业经验值
+         type: brother_text
+         loc: 从业经验
+      familiar_area_text:
+         name: 熟悉地区
+         type: text
+         loc: 熟悉地区
+      familiar_area_value:
+         name: 熟悉地区值
+         type: brother_text
+         loc: 熟悉地区
+      my_profile_text:
+         name: 个人简介
+         type: text
+         loc: 个人简介
+      my_profile_value:
+         name: 个人简介值
+         type: brother_text
+         loc: 个人简介
+      wechat_text:
+         name: 微信二维码
+         type: text
+         loc: 微信二维码
+      wechat_value:
+         name: 微信二维码值
+         type: brother_image
+         loc: 微信二维码
+
+
+      # 我的头像页
+      update_photo_title:
+         name: 标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_user_image_title_tv
+      update_photo_back:
+         name: 返回按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_user_image_title_tv_left
+      update_photo_right:
+         name: 右侧...
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_user_image_title_tv_right
+      update_photo_cammera:
+         name: 拍照
+         type: text
+         loc: 拍照
+      update_photo_gallery:
+         name: 从手机相册选择
+         type: text
+         loc: 从手机相册选择
+      update_photo_cancel:
+         name: 取消
+         type: text
+         lo: 取消
+      picture:
+         name: 选择相册
+         type: text
+         loc: 相册
+      selected_pic:
+         name: 选中照片
+         type: id
+         loc: com.miui.gallery:id/micro_thumb
+      finish_loc:
+         name: 完成
+         type: text
+         loc: 完成
+
+      # 我的姓名和我的年龄页
+      update_edt:
+         name: 修改姓名或年龄的输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_age_name_setting_edt
+      update_remark:
+         name: 输入框下的备注
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_age_name_setting_tv_tip
+
+      # 从业经验弹窗
+      experience_cancel_tv:
+         name: 取消文本
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_user_exp_edit_tv_cancel
+      experience_tv_title:
+         name: 请选择从业经验(年)
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_user_exp_edit_tv_title
+      experience_confirm_tv:
+         name: 完成
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_user_exp_edit_tv_confirm
+      experience_cancel_btn:
+         name: 取消按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_user_exp_edit_tv_cancel_btn
+      experience_time_select:
+         name: 选择经验年数
+         type: text
+         loc: 3
+
+      # 个人简介页
+      my_profile:
+         name: 个人简介输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_resume_edt
+
+      # 系统设置页
+      logout_btn:
+         name: 退出登录
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_setting_un_login
+      logout_text:
+         name: 弹窗内的退出登录
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_act_modify_pwd_bottom_dialog_tv_un_login
+      phrase_setting_text:
+         name: 常用语设置文本
+         type: text
+         loc: 常用语设置
+      update_pwd_text:
+         name: 修改密码文本
+         type: text
+         loc: 修改密码
+
+      # 常用语设置页
+      phrase_item_txt:
+         name: 常用语item
+         type: id
+         loc: com.jufuns.effectsoftware:id/phrase_content_tv
+      new_phrase_btn:
+         name: 新增常用语按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_new_back_bt
+      new_phrase_edt:
+         name: 新增常用语输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_personal_resume_edt
+
+      # 修改密码页
+      original_pwd_text:
+         name: 原密码
+         type: text
+         loc: 原密码
+      original_pwd_edt:
+         name: 输入原密码
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_modify_pwd_edt_original
+      new_pwd_text:
+         name: 新密码
+         type: text
+         loc: 新密码
+      new_pwd_edt:
+         name: 输入新密码
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_modify_pwd_edt_new
+      ensure_pwd_text:
+         name: 确认密码
+         type: text
+         loc: 确认密码
+      ensure_pwd_edt:
+         name: 再次输入新密码
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_modify_pwd_edt_conform_new
+      modify_btn:
+         name: 确定按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_modify_pwd_btn
+
+
+
+
+
+
+
+
+
+
+

@@ -2,65 +2,98 @@ HomePage:
    dec: 首页
    locators:
       home_tab:
-        name: 首页tab
+        name: 首页tab点击
         type: id
         loc: com.jufuns.effectsoftware:id/menu_navigation_btn_home
 
+      home_tab_text:
+        text: 首页
+        type: id
+        loc: com.jufuns.effectsoftware:id/largeLabel
+
+      guest_tab:
+        name: 客户tab点击
+        type: id
+        loc: com.jufuns.effectsoftware:id/menu_navigation_btn_custom
+
+      guest_tab_text:
+        name: 客户
+        type: text
+        loc: 客户
+
+      message_tab:
+        name: 消息tab点击
+        type: id
+        loc: com.jufuns.effectsoftware:id/menu_navigation_btn_message
+
+      message_tab_text:
+        name: 消息
+        type: text
+        loc: 消息
+
+      mine_tab:
+        name: 我的tab点击
+        type: id
+        loc: com.jufuns.effectsoftware:id/menu_navigation_btn_mine
+
+      mine_tab_text:
+        name: 我的
+        type: text
+        loc: 我的
+
       home_title:
-        name: 首页title
+        text: 首页
         type: id
         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
-        text: 首页
 
       follow_num:
         name: 跟进中数
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_follow_up_number
+        text: ""
 
       follow_text:
-        name: 跟进中
+        text: 跟进中
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_follow_up_text
-        text: 跟进中
 
       reported_num:
         name: 已报备数
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_reported_number
+        text: ""
 
       reported_text:
-        name: 已报备
+        text: 已报备
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_reported_text
-        text: 已报备
 
-      vistited_num:
+      visited_num:
         name: 已到访数
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_visited_number
+        text: ""
 
-      visitedt_text:
-        name: 已到访
+      visited_text:
+        text: 已到访
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_visited_text
-        text: 已到访
 
       concluded_num:
         name: 已成交数
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_concluded_number
+        text: ""
 
       concluded_text:
-        name: 已成交
+        text: 已成交
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_concluded_text
-        text: 已成交
 
       build_text:
-        name: 楼盘
+        text: 楼盘
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_build_title
-        text: 楼盘
 
       build_click:
         name: 楼盘点击
@@ -68,10 +101,9 @@ HomePage:
         loc: com.jufuns.effectsoftware:id/fragment_home_ll_build_container
 
       information_text:
-        name: 资讯
+        text: 资讯
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_information_title
-        text: 资讯
 
       information_click:
         name: 资讯点击
@@ -79,71 +111,73 @@ HomePage:
         loc: com.jufuns.effectsoftware:id/fragment_home_ll_information_container
 
       bill_text:
-        name: 海报
+        text: 海报
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_bill_title
-        text: 海报
 
       bill_click:
         name: 海报点击
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_ll_bill_container
+        text: ""
 
       extension_text:
-        name: 商机
+        text: 商机
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_micro_extension_title
-        text: 商机
 
       extension_click:
         name: 商机点击
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_ll_micro_extension_container
+        text: ""
 
       plan_text:
-        name: 跟进计划
-        type: id
-        loc: com.jufuns.effectsoftware:id/fragment_home_tv_follow_up_plan_text
         text: 跟进计划
+        type: id
+        loc: com.jufuns.effectsoftware:id/fragment_home_tv_follow_up_plan_title
+
 
       plan_click:
         name: 跟进计划点击
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_rl_follow_up_plan
+        text: ""
 
       callout_text:
-        name: 外呼任务
-        type: id
-        loc: com.jufuns.effectsoftware:id/fragment_home_tv_call_out_mission_text
         text: 外呼任务
+        type: id
+        loc: com.jufuns.effectsoftware:id/fragment_home_tv_call_out_mission_title
 
       callout_click:
         name: 外呼任务点击
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_rl_call_out_mission
+        text: ""
 
       customer_num:
         name: 新客户数
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_customer_count
+        text: ""
 
       customer_name:
-        name: 客户名称
+        text: 客户名称
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_customer_project
 
       customer_phone:
-        name: 客户号码
+        text: 客户号码
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_customer_number
 
       customer_time:
-        name: 留电时间
+        text: 留电时间
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_customer_time
 
       rob_btn:
-        name: 抢客按钮
+        text: 抢客按钮
         type: id
         loc: com.jufuns.effectsoftware:id/fragment_home_tv_rob
 

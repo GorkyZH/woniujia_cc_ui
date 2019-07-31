@@ -1,0 +1,25 @@
+SqlData:
+   dec: 存储sql语句
+   data:
+      # 查询置业咨询师表
+      sys_operator_data:
+         id_sql: select * from sys_operator where oper_id='15616699600'
+
+      # 跟进计划
+      follow_data:
+         # 今日跟进计划
+         today_follow_sql: select * from client_follow where oper_id='%s' AND next_follow_time>='%s' AND next_follow_time<='%s'
+         # 明日跟进计划
+         tomorrow_follow_sql: select * from client_follow where oper_id='%s' AND next_follow_time>='%s' AND next_follow_time<='%s'
+         # 已超时计划
+         timeout_follow_sql: select * from client_follow where oper_id='%s' AND next_follow_time<'%s' AND is_send='1'
+
+      # 外呼任务
+      callout_data:
+         # 根据置业咨询师查询外呼成员表获取外呼任务id
+         mission_member_sql: select * from mission_members where oper_id='%s'
+         # 根据上面获取到的外呼任务id,查询该置业咨询师进行中的外呼任务记录
+         mission_going_sql: select * from mission where id='%s' AND mission_state='%s'
+
+
+

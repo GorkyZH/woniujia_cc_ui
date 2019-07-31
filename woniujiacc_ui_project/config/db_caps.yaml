@@ -1,0 +1,11 @@
+# 数据库配置
+
+host_server: 182.61.33.241
+db_cc_base: effect20190628
+db_woniujia_base: testwoniujia
+db_user: admin
+db_pwd: vvopdb
+
+
+
+

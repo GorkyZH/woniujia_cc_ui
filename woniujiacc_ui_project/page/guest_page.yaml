@@ -1,0 +1,194 @@
+GuestPage:
+   dec: 我的客户页面
+   locators:
+      title:
+         text: 我的客户
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      robguest_btn:
+         name: 抢客按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      newguest_btn:
+         name: 新增图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_right
+      search_text:
+         name: 搜索框
+         type: text
+         loc: 输入客户手机号码或姓名查找
+      level_text:
+         text: 意向等级
+         type: id
+         loc: com.jufuns.effectsoftware:id/custom_level_tv
+      state_text:
+         text: 客户状态
+         type: id
+         loc: com.jufuns.effectsoftware:id/custom_state_tv
+      mark_text:
+         text: 星标客户
+         type: id
+         loc: com.jufuns.effectsoftware:id/custom_mark_tv
+      empty_text:
+         name: 缺省信息
+         type: id
+         loc: com.jufuns.effectsoftware:id/list_empty_tv
+
+      # 搜索页
+      search_clear:
+         name: 清除图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_search_iv_clear
+      search_cancel:
+         name: 取消按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_search_cancel_tv
+      search_edt:
+         name: 搜索输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_search_et
+      result_text:
+         name: 最近
+         type: text
+         loc: 最近
+
+      # 新增客户页
+      new_guest_title:
+         name: 新增客户标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      guest_name_text:
+         name: 客户姓名栏
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_name_tv
+      guest_name_edt:
+         name: 客户姓名输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_name_et
+      guest_sex_text:
+         name: 客户性别栏
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_sex_tv
+      guest_sex_man:
+         name: 男选项
+         type: id
+         loc: com.jufuns.effectsoftware:id/man_rb
+      guest_sex_woman:
+         name: 女选项
+         type: id
+         loc: com.jufuns.effectsoftware:id/woman_rb
+      guest_phone_text:
+         name: 客户号码
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_phone_tv
+      guest_phone_edt:
+         name: 客户号码输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_phone_et
+      other_phone_text:
+         name: 其他号码文本
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_other_phone_tv
+      other_phone_edt:
+         name: 其他号码输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_other_phone_et
+      guest_level_text:
+         name: 客户等级文本
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_level_tv
+      level_A:
+         name: A级
+         type: text
+         loc: A级
+      level_B:
+         name: B级
+         type: text
+         loc: B级
+      level_C:
+         name: C级
+         type: text
+         loc: C级
+      level_D:
+         name: D级
+         type: text
+         loc: D级
+      require_type_text:
+         name: 需求类型
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_require_type_tv
+      residential:
+         name: 住宅
+         type: text
+         loc: 住宅
+      apartment:
+         name: 公寓
+         type: text
+         loc: 公寓
+      villa:
+         name: 别墅
+         type: text
+         loc: 别墅
+      Office:
+         name: 写字楼
+         type: text
+         loc: 写字楼
+      business:
+         name: 商业
+         type: text
+         loc: 商业
+      Parking:
+         name: 车位
+         type: text
+         loc: 车位
+      others:
+         name: 其他
+         type: text
+         loc: 其他
+      focus_area_text:
+         name: 关注区域
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_focus_area_tv
+      area_dc:
+         name: 东城选项
+         type: text
+         loc: 东城
+      area_xc:
+         name: 西城选项
+         type: text
+         loc: 西城
+      focus_building_text:
+         name: 关注楼盘
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_focus_building_tv
+      follow_plan_text:
+         name: 跟进计划
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_follow_plan_tv
+      follow_plan_time:
+         name: 选择跟进时间
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_follow_time_tv
+      remark_text:
+         name: 备注
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_backup_tv
+      remark_edt:
+         name: 输入备注
+         type: id
+         loc: com.jufuns.effectsoftware:id/customer_backup_et
+      save_btn:
+         name: 保存按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/new_customer_save_bt
+
+
+
+
+
+
+

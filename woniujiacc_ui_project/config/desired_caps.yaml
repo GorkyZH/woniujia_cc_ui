@@ -13,9 +13,11 @@ platformName: Android
 platformVersion: 7.1.2
 deviceName: Redmi 4X
 udid: 9ece97bc7d74
+automationName: uiautomator2
+newCommandTimeout: 1200
 
 appname: hecr_debugsetting_debug.apk
-noReset: False
+noReset: True
 unicodeKeyboard: True
 resetKeyboard: True
 

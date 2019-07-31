@@ -1,0 +1,11 @@
+RobguestPage:
+   dec: 抢客页面
+   locators:
+      title:
+         name: 抢客
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left

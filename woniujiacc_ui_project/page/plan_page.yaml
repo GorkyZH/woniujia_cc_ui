@@ -1,0 +1,35 @@
+PlanPage:
+   dec: 跟进计划页面
+   locators:
+      title:
+         text: 跟进计划
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      tab1_title:
+         name: 今日tab
+         type: text
+         loc: 今日
+      tab2_title:
+         name: 明日tab
+         type: text
+         loc: 明日
+      tab3_title:
+         name: 已超时tab
+         type: text
+         loc: 已超时
+      empty_text:
+         name: 缺省信息
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_page_status_empty_tv
+      item_phone_text:
+         name: item中的手机号码
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_follow_up_rv_item_tv_phone
+      follow_time:
+         name: 跟进时间
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_fragment_follow_up_rv_item_tv_time

@@ -1,0 +1,15 @@
+ExtensionPage:
+   dec: 商机页面
+   locators:
+      title:
+         text: 微信商机
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      empty_text:
+         text: 暂无微信商机
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_page_status_empty_tv

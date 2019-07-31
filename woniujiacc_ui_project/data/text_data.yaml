@@ -1,0 +1,133 @@
+TextData:
+   dec: 文本数据
+   data:
+      # 楼盘页标题
+      build_data:
+         title: 楼盘
+         empty_tip: 没有找到符合的，试试其他关键词吧
+         history_tip: 历史搜索
+         keyword_empty: 等等等等
+         keyword_exist: 万科
+
+      # 资讯页文本内容
+      information_data:
+         title: 资讯
+         info_home_tab_title: 资讯首页
+         tab2_title: 楼评导购
+         tab3_title: 本地要闻
+         tab4_title: 全国资讯
+
+      # 海报页标题
+      bill_data:
+         title: 海报
+
+      # 微信商机页文本内容
+      extension_data:
+         title: 微信商机
+         empty_msg: 暂无微信商机
+
+      # 客户页文本内容
+      guest_data:
+         title: 我的客户
+         level_text: 意向等级
+         state_text: 客户状态
+         mark_text: 星标客户
+
+      # 新增客户页标题
+      newguest_data:
+         title: 新增客户
+
+      # 消息页标题
+      message_data:
+         title: 消息
+
+      # 我的页文本内容
+      mine_data:
+         service_time_text: 从业经验(年)
+         service_people_text: 已服务(人)
+         service_score_text: 满意度(分)
+         edit_info_text: 编辑个人信息
+         share_card_text: 分享我的名片
+         plan_text: 跟进计划
+         callout_text: 营销外呼
+         build_text: 驻守楼盘
+         setting_text: 系统设置
+
+      # 抢客页标题
+      robguest_data:
+         title: 抢客
+
+      # 搜索客户页文本内容
+      search_guest_data:
+         cancel_text: 取消
+         result_text: 最近
+
+      # 跟进计划页文本内容
+      plan_data:
+         title: 跟进计划
+         today: 今日
+         tomorrow: 明日
+         timeout: 已超时
+
+      # 营销外呼页文本内容
+      callout_data:
+         title: 营销外呼
+         going: 进行中
+         done: 已完成
+
+      # 驻守楼盘页标题
+      ownbuild_data:
+         title: 驻守楼盘
+
+      # 系统设置页标题
+      setting_data:
+         title: 系统设置
+
+      # 常用语设置页标题
+      pharse_setting_data:
+         title: 常用语设置
+
+      # 新增常用语页标题
+      new_pharse_data:
+         title: 新增常用语
+         input_text: 请问贷款方式是选择商业贷还是公积金贷？
+         message: 常用语不能为空
+
+      # 修改密码页文本内容
+      update_pwd_data:
+         title: 修改密码
+         old_pwd_text: 原密码
+         new_pwd_text: 新密码
+         confirm_pwd_text: 确认密码
+
+      # 缺省提示信息
+      empty_text:
+         text: 暂无数据
+
+      # 我的姓名页标题
+      myname_text:
+         title: 我的姓名
+
+      # 个人信息页文本内容
+      personal_info_data:
+         title: 个人信息
+         my_photo_text: 我的头像
+         my_name_text: 我的姓名
+         my_age_text: 我的年龄
+         experience_text: 从业经验
+         familiar_area_text: 熟悉地区
+         personal_profile_text: 个人简介
+         wechat_code_text: 微信二维码
+
+      # 分享我的名片弹窗文本内容
+      share_card_pop_data:
+         select_wechat_text: 微信好友
+         select_bill_text: 分享海报
+         select_link_text: 分享链接
+         select_copy_link_text: 复制链接
+         cancel_text: 取消
+
+
+
+
+

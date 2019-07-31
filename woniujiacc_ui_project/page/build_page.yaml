@@ -1,0 +1,68 @@
+BuildPage:
+   dec: 楼盘页面元素定位
+   locators:
+      title:
+         text: 定位楼盘标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 定位返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      search_btn:
+         name: 定位搜索图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_right
+      item_build_name:
+         name: 定位item的楼盘名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_home_list_rv_info_tv_name
+      item_build_image:
+         name: 定位item的缩略图
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_news_list_rv_image_rl
+
+      # 搜索页
+      search_icon:
+         name: 定位搜索图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_house_search_iv_search
+      search_clear:
+         name: 定位清除图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_house_search_iv_clear
+      search_cancel:
+         name: 定位取消按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_home_search_tv_cancel
+      search_edt:
+         name: 定位搜索输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_house_search_edt
+      result_empty:
+         name: 定位查询结果为空提示语
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_search_empty_tv
+      result_name:
+         name: 定位搜索列表中的item楼盘名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_search_result_house_lv_item_tv_title
+      history_text:
+         name: 定位历史搜索文本
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_search_page_history_tv_title
+      history_keyword:
+         name: 定位历史关键字
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_search_history_hot_tv
+      history_clear:
+         name: 定位清空
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_search_page_history_tv_clear
+
+      # 楼盘详情页
+      build_detail_share_btn:
+         name: 定位详情页的分享按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_act_detail_ll_share
+

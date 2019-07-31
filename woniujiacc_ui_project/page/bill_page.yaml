@@ -1,0 +1,23 @@
+BillPage:
+   dec: 海报页面
+   locators:
+      title:
+         text: 海报
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      tab1_title:
+         text: 百科
+         type: text
+         loc: 百科
+      tab2_title:
+         text: 励志
+         type: text
+         loc: 励志
+      tab3_title:
+         text: 活动
+         type: text
+         loc: 活动

@@ -1,0 +1,27 @@
+CalloutPage:
+   dec: 营销外呼页面
+   locators:
+      title:
+         name: 定位营销外呼
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 定位返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      going_tab:
+         name: 定位进行中tab
+         type: text
+         loc: 进行中
+      done_tab:
+         name: 定位已完成tab
+         type: text
+         loc: 已完成
+      empty_text:
+         name: 定位缺省信息
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_page_status_empty_tv
+      item_text:
+         name: 定位list中item外呼任务名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/call_task_title_tv

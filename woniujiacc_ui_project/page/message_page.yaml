@@ -1,0 +1,7 @@
+MessagePage:
+   dec: 消息页面
+   locators:
+      title:
+         text: 消息
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
