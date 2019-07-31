@@ -16,12 +16,12 @@ class Common(BaseView):
         try:
             message = '//*[@text=\'{}\']'.format(toast_message)
             WebDriverWait(self.driver, 10, 0.3).until(lambda x: x.find_element_by_xpath(message))
-            self.getScreenShot(model)
+            # self.getScreenShot(model)
             logging.info("toast_message equal!")
             return True
         except:
             logging.info("toast_message not exist!")
-            self.getScreenShot(model)
+            # self.getScreenShot(model)
             return False
 
     def get_size(self):
