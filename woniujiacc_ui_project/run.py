@@ -4,12 +4,22 @@ from BSTestRunner import BSTestRunner
 import unittest
 import time
 import logging
-import importlib, sys
+import importlib, sys, os
 path = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project"
 sys.path.append(path)
 importlib.reload(sys)
 # sys.setdefaultencoding('utf-8')
 
+
+# def new_report(report_dir):
+#     lists = os.listdir(report_dir)
+#     print(lists)
+#     lists.sort(key=lambda fn: os.path.getatime(report_dir + "\\" + fn))
+#     print("The latest report is:" + lists[-1])
+#
+#     file_new = os.path.join(report_dir, lists[-1])
+#     print(file_new)
+#     return file_new
 
 # 指定测试用例和测试报告的路径
 # test_dir = '../test_case/test_login'
