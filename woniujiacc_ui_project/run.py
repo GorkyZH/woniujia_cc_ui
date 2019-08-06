@@ -21,6 +21,7 @@ report_dir =  base_dir + "/reports"
 # report_dir = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/reports"
 
 # 加载测试用例
+print("test_dir:", test_dir)
 discover = unittest.defaultTestLoader.discover(test_dir, pattern='login_case.py')
 
 # 定义报告的文件格式
