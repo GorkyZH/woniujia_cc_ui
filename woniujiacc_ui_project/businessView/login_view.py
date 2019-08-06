@@ -4,7 +4,7 @@ from common.desired_cap import appium_desired
 from common.common_fun import Common
 import logging, sys, importlib
 
-sys.path.append('businessview')
+sys.path.append(sys.path[0])
 importlib.reload(sys)
 
 class LoginView(Common):

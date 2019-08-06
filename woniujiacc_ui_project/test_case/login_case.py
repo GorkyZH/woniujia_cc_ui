@@ -1,9 +1,10 @@
 # coding=utf-8
+
 from common.myunit import StartEnd
-from businessview.login_view import LoginView
+from  businessview.login_view import LoginView
 import unittest
 import logging, sys, importlib
-sys.path.append('../test_case')
+sys.path.append(sys.path[0])
 importlib.reload(sys)
 
 class LoginCase(StartEnd):
