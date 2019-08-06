@@ -7,8 +7,8 @@ import logging
 import os
 import importlib, sys
 # path = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project"
-# base_dir = os.path.dirname(os.path.dirname(__file__))
-base_dir = os.path.dirname(__file__)
+base_dir = sys.path[0]
+# base_dir = os.path.dirname(__file__)
 sys.path.append(base_dir)
 importlib.reload(sys)
 # sys.setdefaultencoding('utf-8')
