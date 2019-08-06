@@ -1,11 +1,10 @@
 # coding=utf-8
 from common.myunit import StartEnd
 from businessview.login_view import LoginView
-
 import unittest
 import logging, sys, importlib
-# sys.path.append('../test_case')
-# importlib.reload(sys)
+sys.path.append('../test_case')
+importlib.reload(sys)
 
 class LoginCase(StartEnd):
     """登录测试用例"""
