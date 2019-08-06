@@ -1,4 +1,5 @@
 # coding=utf-8
+
 from selenium.common.exceptions import NoSuchElementException
 from common.desired_cap import appium_desired
 from common.common_fun import Common
