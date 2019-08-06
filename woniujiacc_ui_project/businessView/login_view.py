@@ -19,7 +19,7 @@ class LoginView(Common):
         self.logout_text = Common(driver).get_by_loc('MinePage', 'logout_text')
 
     # 执行登录操作
-    def login_action(self, username, password):
+    def login_action(self, username, password, message):
         logging.info('============login_action==============')
         logging.info('username is:%s' % username)
         Common(self.driver).send_keys(self.username_type, text=username)
@@ -27,8 +27,10 @@ class LoginView(Common):
         Common(self.driver).send_keys(self.password_type, text=password)
         logging.info('click loginBtn')
         Common(self.driver).click(self.loginBtn)
+        result = Common(self.driver).is_toast_exist('login', message)
         Common(self.driver).getScreenShot('login')
         logging.info('login finished!')
+        return result
 
     # 执行退出登录操作
     def logout_action(self):

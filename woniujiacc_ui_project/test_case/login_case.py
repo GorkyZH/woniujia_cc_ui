@@ -16,9 +16,10 @@ class LoginCase(StartEnd):
         login = LoginView(self.driver)
         data = login.get_yaml_data('LoginData', 'operid_pwd_null')
         login.check_login_status()
-        login.login_action(data['oper_id'], data['oper_pwd'])
-        self.assertTrue(login.is_toast_exist('login', data['message']))
+        self.assertTrue(login.login_action(data['oper_id'], data['oper_pwd'], data['message']))
+        # self.assertTrue(login.is_toast_exist('login', data['message']))
         # login.getScreenShot("login")
+        # self.assertTrue(login.lo)
 
     @unittest.skip("test_login_002_pwd_null")
     def test_login_002_pwd_null(self):

@@ -3742,3 +3742,60 @@
 2019-08-06 11:34:07,958 login_view.py[line:31] INFO login finished!
 2019-08-06 11:34:19,875 common_fun.py[line:23] INFO toast_message not exist!
 2019-08-06 11:34:19,875 myunit.py[line:12] INFO ___________tearDwon__________
+2019-08-06 11:51:33,448 run.py[line:33] INFO start run testcase...
+2019-08-06 11:51:33,449 myunit.py[line:8] INFO ----------setUp----------
+2019-08-06 11:51:33,455 desired_cap.py[line:42] INFO start app......
+2019-08-06 11:51:50,587 login_case.py[line:15] INFO -----用例1：用户名或密码为空------
+2019-08-06 11:51:51,753 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:51:57,142 login_view.py[line:46] INFO login failure!
+2019-08-06 11:51:57,143 login_view.py[line:23] INFO ============login_action==============
+2019-08-06 11:51:57,143 login_view.py[line:24] INFO username is:
+2019-08-06 11:51:57,143 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:51:57,838 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:51:59,089 login_view.py[line:26] INFO password is:
+2019-08-06 11:51:59,089 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:52:00,239 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:52:01,739 login_view.py[line:28] INFO click loginBtn
+2019-08-06 11:52:01,739 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:52:05,689 common_fun.py[line:53] INFO get login screenshot
+2019-08-06 11:52:07,341 login_view.py[line:31] INFO login finished!
+2019-08-06 11:52:19,553 common_fun.py[line:23] INFO toast_message not exist!
+2019-08-06 11:52:19,554 myunit.py[line:12] INFO ___________tearDwon__________
+2019-08-06 11:53:34,828 run.py[line:33] INFO start run testcase...
+2019-08-06 11:53:34,829 myunit.py[line:8] INFO ----------setUp----------
+2019-08-06 11:53:34,833 desired_cap.py[line:42] INFO start app......
+2019-08-06 11:53:51,676 login_case.py[line:15] INFO -----用例1：用户名或密码为空------
+2019-08-06 11:53:53,066 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:53:58,347 login_view.py[line:46] INFO login failure!
+2019-08-06 11:53:58,347 login_view.py[line:23] INFO ============login_action==============
+2019-08-06 11:53:58,347 login_view.py[line:24] INFO username is:
+2019-08-06 11:53:58,347 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:53:58,522 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:54:00,100 login_view.py[line:26] INFO password is:
+2019-08-06 11:54:00,100 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:54:00,872 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:54:02,652 login_view.py[line:28] INFO click loginBtn
+2019-08-06 11:54:02,653 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:54:05,929 common_fun.py[line:53] INFO get login screenshot
+2019-08-06 11:54:06,890 login_view.py[line:31] INFO login finished!
+2019-08-06 11:54:18,545 common_fun.py[line:23] INFO toast_message not exist!
+2019-08-06 11:54:18,545 myunit.py[line:12] INFO ___________tearDwon__________
+2019-08-06 11:59:03,251 run.py[line:33] INFO start run testcase...
+2019-08-06 11:59:03,252 myunit.py[line:8] INFO ----------setUp----------
+2019-08-06 11:59:03,258 desired_cap.py[line:42] INFO start app......
+2019-08-06 11:59:19,404 login_case.py[line:15] INFO -----用例1：用户名或密码为空------
+2019-08-06 11:59:20,608 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:26,978 login_view.py[line:48] INFO login failure!
+2019-08-06 11:59:26,978 login_view.py[line:23] INFO ============login_action==============
+2019-08-06 11:59:26,978 login_view.py[line:24] INFO username is:
+2019-08-06 11:59:26,978 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:27,205 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:28,556 login_view.py[line:26] INFO password is:
+2019-08-06 11:59:28,556 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:29,195 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:30,640 login_view.py[line:28] INFO click loginBtn
+2019-08-06 11:59:30,640 baseView.py[line:60] INFO ------------------check element--------------------
+2019-08-06 11:59:32,829 common_fun.py[line:20] INFO toast_message equal!
+2019-08-06 11:59:32,829 common_fun.py[line:53] INFO get login screenshot
+2019-08-06 11:59:33,357 login_view.py[line:32] INFO login finished!
+2019-08-06 11:59:33,357 myunit.py[line:12] INFO ___________tearDwon__________

@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>蜗牛家ccApp UI自动化测试</h1>
-<p><strong>Start Time:</strong> 2019-08-06 11:33:24</p>
-<p><strong>Duration:</strong> 0:01:06.841365</p>
-<p><strong>Status:</strong> <span class="text text-danger">Failure <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2019-08-06 11:59:03</p>
+<p><strong>Duration:</strong> 0:00:41.356769</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span></p>
 
 <p class='description'>蜗牛家ccApp UI自动化测试报告</p>
 </div>
@@ -177,38 +177,34 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
-<tr class='text text-danger'>
+<tr class='text text-success'>
     <td>login_case.LoginCase: 登录测试用例</td>
     <td>1</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td>0</td>
     <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='text text-success'>
-    <td class='text text-danger'><div class='testcase'>test_login_001_allnull: 用例1：账号密码均为空，登录失败</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_login_001_allnull: 用例1：账号密码均为空，登录失败</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: /Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/common/desired_cap.py:22: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+pt1.1: /Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/common/desired_cap.py:22: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
   data = yaml.load(file)
 /Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/common/common_fun.py:86: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
   page = yaml.load(f)
-Traceback (most recent call last):
-  File "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/test_case/login_case.py", line 20, in test_login_001_allnull
-    self.assertTrue(login.is_toast_exist('login', data['message']))
-AssertionError: False is not true
 
 
         </pre>
@@ -223,8 +219,8 @@ AssertionError: False is not true
         <tr id='total_row'>
             <td>Total</td>
             <td>1</td>
-            <td class="text text-success">0</td>
-            <td class="text text-danger">1</td>
+            <td class="text text-success">1</td>
+            <td class="text text-danger">0</td>
             <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>

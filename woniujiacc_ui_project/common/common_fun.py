@@ -15,7 +15,7 @@ class Common(BaseView):
     def is_toast_exist(self, model, toast_message):
         try:
             message = '//*[@text=\'{}\']'.format(toast_message)
-            WebDriverWait(self.driver, 10, 0.3).until(lambda x: x.find_element_by_xpath(message))
+            WebDriverWait(self.driver, 10, 0.1).until(lambda x: x.find_element_by_xpath(message))
             # self.getScreenShot(model)
             logging.info("toast_message equal!")
             return True
