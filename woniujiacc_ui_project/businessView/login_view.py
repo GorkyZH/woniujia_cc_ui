@@ -2,7 +2,10 @@
 from selenium.common.exceptions import NoSuchElementException
 from common.desired_cap import appium_desired
 from common.common_fun import Common
-import logging
+import logging, sys, importlib
+
+sys.path.append('businessview')
+importlib.reload(sys)
 
 class LoginView(Common):
     def __init__(self, driver):

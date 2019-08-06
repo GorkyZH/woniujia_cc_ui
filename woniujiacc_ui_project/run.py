@@ -4,11 +4,13 @@ from BSTestRunner import BSTestRunner
 import unittest
 import time
 import logging
-import importlib, sys, os
-path = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project"
-sys.path.append(path)
-importlib.reload(sys)
+import os
+import importlib, sys
+# path = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project"
+# sys.path.append(path)
+# importlib.reload(sys)
 # sys.setdefaultencoding('utf-8')
+base_dir = os.path.dirname(os.path.dirname(__file__))
 
 
 # def new_report(report_dir):
@@ -23,8 +25,8 @@ importlib.reload(sys)
 
 # 指定测试用例和测试报告的路径
 # test_dir = '../test_case/test_login'
-test_dir = path+'/test_case'
-report_dir = path+'/reports'
+test_dir = base_dir + '/test_case'
+report_dir =  base_dir + '/reports'
 # test_dir = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/test_case/"
 # report_dir = "/Users/mac/Desktop/测试资料/蜗牛家产品线/woniujia_cc_ui/appium_git/woniujiacc_ui_project/reports"
 
